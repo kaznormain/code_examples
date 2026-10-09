@@ -5,7 +5,7 @@ fn main() {
     println!("{}", x);
 }
 
-fn input(promp_msg: &str) -> String {
+fn get_user_input(prompt_msg: &str) -> String {
     println!("{}", promp_msg);
     print!("> ");
     io::stdout().flush().unwrap();
